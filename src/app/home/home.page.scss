@@ -25,3 +25,37 @@
 #container a {
   text-decoration: none;
 }
+
+
+@media only screen and (orientation: landscape) {
+  ion-title{
+    --color:green;
+    font-weight:bold;
+  }
+   ion-content{
+    --background: darkgreen;
+  }
+  
+  ion-card{
+    --background: green;
+    --color: lightgreen;
+  }
+  
+}
+
+@media only screen and (orientation: portrait) {
+  ion-title{
+    --color:blue;
+    font-weight:bold;
+  }
+   ion-content{
+    --background: darkblue;
+  }
+  
+  ion-card{
+    --background: darkblue;
+    --color: lightblue;
+  }
+}
+
+
